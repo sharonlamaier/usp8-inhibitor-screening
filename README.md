@@ -1,6 +1,6 @@
 # USP8 Inhibitor Screening
 1. Clone this repository: <br>
-   ````git clone https://github.com/sharonlamaier/usp8-inhibitor-screening.git````
+   ````git clone https://github.com/sharonlamaier/usp8-inhibitor-screening.git```` <br>
    ````cd usp8-inhibitor-screening````
 3. Create and activate the conda environment: <br>
    ````conda env create -f environment.yml```` <br>
