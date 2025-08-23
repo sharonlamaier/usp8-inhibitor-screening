@@ -6,7 +6,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=str, required=True, help="Path to dataset")
     parser.add_argument("--model", type=str, required=True,
-                        help="Threshold for activity")
+                        help="Model to be used")
     parser.add_argument("--threshold", type=float, default=0.01,
                         help="Threshold for activity")
     return parser.parse_args()
@@ -23,4 +23,5 @@ def main():
     return predicted_prob, predicted_activity
 
 if __name__ == "__main__":
+
     main()
