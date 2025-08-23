@@ -1,0 +1,11 @@
+﻿Name,SMILES,IC50_uM
+5g,N#Cc1nc2c(nc1C#N)-c1ccc(Cl)cc1C2=O,0.096
+22g,CON=C1c2cc(Cl)ccc2-c2nc(C#N)c(C#N)nc21,0.103
+22h,C=CCON=C1c2cc(Cl)ccc2-c2nc(C#N)c(C#N)nc21,0.13
+5k,N#Cc1nc2c(nc1C#N)-c1cc(Cl)ccc1C2=O,0.133
+22f,N#Cc1nc2c(nc1C#N)-c1ccccc1C2=NOc1ccccc1,0.24
+5h,N#Cc1nc2c(nc1C#N)-c1ccc(F)cc1C2=O,0.25
+22e,CCON=C1c2ccccc2-c2nc(C#N)c(C#N)nc21,0.28
+1,N#Cc1nc2c(nc1C#N)-c1ccccc1C2=O,0.29
+5l,Cc1c(F)ccc2c1C(=O)c1nc(C#N)c(C#N)nc1-2,0.316
+21,N#Cc1nc2c(nc1C#N)-c1ccccc1C2=Nc1ccccc1,0.35

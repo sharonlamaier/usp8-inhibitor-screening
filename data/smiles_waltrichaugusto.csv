@@ -1,0 +1,12 @@
+Name,SMILES,IC50_uM
+Closantel,CC1=CC(=C(C=C1NC(=O)C2=C(C(=CC(=C2)I)I)O)Cl)C(C#N)C3=CC=C(C=C3)Cl,2.31
+Niclosamide,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,61
+Clioxanide,CC(=O)OC1=C(C=C(C=C1I)I)C(=O)NC2=CC=C(C=C2)Cl,33.2
+Oxyclozanide,C1=C(C=C(C(=C1NC(=O)C2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl)Cl,7.68
+Rafoxanide,C1=CC(=CC=C1OC2=C(C=C(C=C2)NC(=O)C3=C(C(=CC(=C3)I)I)O)Cl)Cl,7.63
+ZINC4014108,Cc1ccc(NC(=O)c2cc(I)cc(I)c2O)cc1,14.6
+ZINC72119086,Cc1ccc(C(=O)c2cc(NC(=O)c3cc(I)cc(I)c3O)ccc2Cl)cc1,3.41
+ZINC4181894,O=C(Nc1ccc(Cl)cc1Cl)c1cc(I)cc(I)c1O,4.34
+ZINC4014105,O=C(Nc1cc(Cl)ccc1Cl)c1cc(I)cc(I)c1O,13
+ZINC4014104,O=C(Nc1ccc(Cl)cc1)c1cc(I)cc(I)c1O,11.9
+ZINC4014253,O=C(Nc1cc(Cl)cc(Cl)c1)c1cc(I)cc(I)c1O,8.98
