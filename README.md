@@ -6,4 +6,4 @@
    ````conda env create -f environment.yml```` <br>
    ````conda activate usp8````
 4. Run the code specifying the model, dataset, and activity threshold: <br>
-   ````python main.py --data data/smiles_colombo.csv --model models/xgb_rdkit_nounder_bigtrain.pkl --threshold 0.01````
+   ````python main.py --data data/smiles_colombo.csv --model models/xgb_rdkit_nounder_bigtrain.pkl --threshold 0.01 --o output.txt````
