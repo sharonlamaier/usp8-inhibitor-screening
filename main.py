@@ -21,12 +21,11 @@ def main():
     model = load_model(args.model)
     predicted_prob = predict_proba(fp, model)
     predicted_activity = predict_activity(predicted_prob,args.threshold)
-    output = args.o 
-    #print(f'predicted probabilities: {predicted_prob}')
-    #print(f'predicted activities: {predicted_activity}')
+    output = args.o
     df_predictions = pd.DataFrame({"pred_prob": predicted_prob, "pred_activity": predicted_activity})
     df = pd.concat([data[['SMILES']],df_predictions],axis=1)
     df.to_csv(output, sep=",", index=False)
 
 if __name__ == "__main__":
     main()
+
