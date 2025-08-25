@@ -26,12 +26,12 @@ The conda environment that can be used to reproduce results from the manuscript 
 ## Directory structure
 - ````main.py````: Python script to run the model's classification via CLI.
 - ````data/````: Includes datasets with SMILES of compounds for classification. 
-   - Colombo et al. (2010) (Top 10 compounds with lowest IC50): ````smiles_colombo.csv````
-   - Tian et al. (2024) (Top 10 compounds with lowest IC50):  ````smiles_tian.csv````
+   - Colombo et al. (2010) (Top 10 compounds with lowest IC<sub>50</sub>): ````smiles_colombo.csv````
+   - Tian et al. (2024) (Top 10 compounds with lowest IC<sub>50</sub>):  ````smiles_tian.csv````
    - Waltrich-Augusto (2025) (11 compounds): ````smiles_waltrichaugusto.csv````
    - COCONUT (SMILES of 1000 diverse compounds obtained by RDKit LazyBitVectorPick MaxMinPicker): ````smiles_coconut.csv````
 - ````models/````: Includes pre-trained models.
-  - XGBoost model trained with the full HTS dataset (excluding the compounds with 'Unspecified' activity): ````xgb_rdkit_nounder_bigtrain.pkl```` 
+  - XGBoost model trained with the combined HTS training and validation datasets: ````xgb_rdkit_nounder_bigtrain.pkl```` 
 - ````src/````: Includes python scripts required for fingerprint generation and applying the classification model.
    - For loading the dataset and generation of RDKit fingerprints: ````data-utils.py```` 
    - For loading the model and generating prediction scores and activity based on user-defined threshold (default: 0.01): ````model-utils.py````
