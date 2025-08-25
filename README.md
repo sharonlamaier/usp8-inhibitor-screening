@@ -1,4 +1,6 @@
 # USP8 Inhibitor Screening
+<img src="https://github.com/sharonlamaier/usp8-inhibitor-screening/blob/main/TOC.png" width=50% height=50%>
+
 ## Overview 
 This repository is created based on the following manuscript titled "Accelerating primary screening of USP8 inhibitors from drug repurposing databases with tree-based machine learning".
 The repository includes the best performing model from the manuscript that can be used for the USP8 inhibitory activity classification of compounds, as well as a main python script that can be used to run the classification simply via CLI.   
@@ -31,5 +33,5 @@ The conda environment that can be used to reproduce results from the manuscript 
 - ````models/````: Includes pre-trained models.
   - XGBoost model trained with the full HTS dataset (excluding the compounds with 'Unspecified' activity): ````xgb_rdkit_nounder_bigtrain.pkl```` 
 - ````src/````: Includes python scripts required for fingerprint generation and applying the classification model.
-   - For loading the dataset and generation of RDKit fingerprints: ````data-utils.py````: 
+   - For loading the dataset and generation of RDKit fingerprints: ````data-utils.py```` 
    - For loading the model and generating prediction scores and activity based on user-defined threshold (default: 0.01): ````model-utils.py````
